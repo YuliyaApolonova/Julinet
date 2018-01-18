@@ -18,8 +18,9 @@ const startRoutes: Routes = [
     component: StartPageComponent,
     children: [
       {
-        path: '',
-        component: SignInComponent},
+       path: '',
+       redirectTo: 'sign_in',
+       pathMatch: 'full'},
       // {
       //   path: 'registration',
       //   component: SignUpComponent

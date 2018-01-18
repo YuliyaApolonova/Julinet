@@ -12,6 +12,9 @@ export class AuthService {
   constructor(private afa: AngularFireAuth, private router: Router ) {
     this.user = afa.authState;
   }
+  signInWithFacebook() {
+
+  }
   // loginWithGoogle() {
   //   return this.afa.auth.signInWithPopup( new firebase.auth.GoogleAuthProvider);
   // }

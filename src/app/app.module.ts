@@ -9,7 +9,6 @@ import {AngularFireDatabaseModule} from 'angularfire2/database';
 import {environment} from '../environments/environment';
 
 import { HomePageComponent } from './home-page/home-page.component';
-import { StartPageComponent } from './start-page/start-page.component';
 import {AppRoutingModule} from './app-routing.module';
 import {StartPageModule} from './start-page/start-page.module';
 
@@ -19,7 +18,7 @@ import {StartPageModule} from './start-page/start-page.module';
   declarations: [
     AppComponent,
     HomePageComponent,
-    StartPageComponent,
+
   ],
   imports: [
     BrowserModule,
